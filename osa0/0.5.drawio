@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Page-1" id="OvSoNEotWX1LD8Lc4uut">
+    <mxGraphModel dx="1188" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G64JaDPs_MNKlMf817-Y-1" value="BROWSER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-2" value="SERVER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-6" value="GET&lt;div&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; text-wrap-mode: wrap; background-color: rgb(40, 40, 40);&quot;&gt;https://studies.cs.helsinki.fi/exampleapp/spa&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="417" as="sourcePoint" />
+            <mxPoint x="870" y="417" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-7" value="GET&lt;div&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; text-wrap-mode: wrap; background-color: rgb(40, 40, 40);&quot;&gt;https://studies.cs.helsinki.fi/exampleapp/main.css&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="517" as="sourcePoint" />
+            <mxPoint x="870" y="517" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-8" value="GET&lt;div&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; text-wrap-mode: wrap; background-color: rgb(40, 40, 40);&quot;&gt;https://studies.cs.helsinki.fi/exampleapp/spa.js&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="607" as="sourcePoint" />
+            <mxPoint x="870" y="607" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-9" value="GET&lt;div&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; text-wrap-mode: wrap; background-color: rgb(40, 40, 40);&quot;&gt;https://studies.cs.helsinki.fi/exampleapp/data.json&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="707" as="sourcePoint" />
+            <mxPoint x="870" y="707" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="467" as="sourcePoint" />
+            <mxPoint x="360" y="467" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-11" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;HTML&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="437" width="270" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-12" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;CSS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="517" width="270" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="557" as="sourcePoint" />
+            <mxPoint x="360" y="557" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="657" as="sourcePoint" />
+            <mxPoint x="360" y="657" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-15" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;JS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="617" width="270" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="767" as="sourcePoint" />
+            <mxPoint x="360" y="767" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G64JaDPs_MNKlMf817-Y-17" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Notes data in JSON format. Callback is triggered and notes are rendered&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="727" width="270" height="37" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

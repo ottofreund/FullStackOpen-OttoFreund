@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Page-1" id="QTCMmFMQsJZTuMPowbbA">
+    <mxGraphModel dx="1188" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-1" value="BROWSER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-2" value="SERVER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-3" value="POST&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; text-wrap-mode: wrap; background-color: rgb(40, 40, 40);&quot;&gt;https://studies.cs.helsinki.fi/exampleapp/new_note&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="670" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="260" as="sourcePoint" />
+            <mxPoint x="160" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-5" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Palvelin vastaanottaa uuden viestin ja kehottaa selainta &quot;lataamaan&quot; sivun uudestaan eli tekemään GET pyynnön /notes osoitteeseen&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-7" value="GET&lt;div&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; text-wrap-mode: wrap; background-color: rgb(40, 40, 40);&quot;&gt;https://studies.cs.helsinki.fi/exampleapp/notes&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="670" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-8" value="GET&lt;div&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; text-wrap-mode: wrap; background-color: rgb(40, 40, 40);&quot;&gt;https://studies.cs.helsinki.fi/exampleapp/main.css&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="420" as="sourcePoint" />
+            <mxPoint x="670" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-9" value="GET&lt;div&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; text-wrap-mode: wrap; background-color: rgb(40, 40, 40);&quot;&gt;https://studies.cs.helsinki.fi/exampleapp/main.js&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="510" as="sourcePoint" />
+            <mxPoint x="670" y="510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-10" value="GET&lt;div&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; text-wrap-mode: wrap; background-color: rgb(40, 40, 40);&quot;&gt;https://studies.cs.helsinki.fi/exampleapp/data.json&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="610" as="sourcePoint" />
+            <mxPoint x="670" y="610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="370" as="sourcePoint" />
+            <mxPoint x="160" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-12" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;HTML&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="340" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-13" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;CSS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="420" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="460" as="sourcePoint" />
+            <mxPoint x="160" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="560" as="sourcePoint" />
+            <mxPoint x="160" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-16" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;JS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0196" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="670" as="sourcePoint" />
+            <mxPoint x="160" y="670" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByaucUw5SRcRYsXRDMC-18" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Notes data in JSON format. Callback is triggered and notes are rendered&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="630" width="270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
