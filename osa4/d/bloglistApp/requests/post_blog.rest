@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRyaXp6eSBEIiwiaWQiOiI2ODg2MDFkYTA1Y2NiZjA4YmY0NjFkMDMiLCJpYXQiOjE3NTM2MTY1NzQsImV4cCI6MTc1MzYyMDE3NH0.uVh_qGRxgu9Z21LVbha4nc_cQNspO7FRZWsnbui2K3M
+
+{
+    "title": "How to rhyme xxxx",
+    "author": "Drizzy",
+    "url": "https://fakeassurl8.com",
+    "likes": 50
+}

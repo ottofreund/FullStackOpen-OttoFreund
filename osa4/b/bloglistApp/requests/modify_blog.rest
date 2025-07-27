@@ -1,0 +1,6 @@
+PUT http://localhost:3003/api/blogs/687f40553a12e3aa96fd3072
+Content-Type: application/json
+
+{
+    "title": "How to keep your room crowded"
+}
